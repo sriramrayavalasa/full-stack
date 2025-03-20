@@ -1,0 +1,11 @@
+* is for selecting all in html
+div,p,h1 and more by using this we select specific field.
+.(class name) is specifically for class.it is grouped along with same name.
+#id is as like class but it is unique.
+attribute selector(type="text") 
+combined all selectors execute at a time(h1,p,.class,#id)
+selector selector {} it indicates in specific.in deep. ------descendent selector
+selector>selector{} it used for only childs not grand childs ---------child selector
+
+
+
