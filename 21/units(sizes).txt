@@ -1,0 +1,26 @@
+css units -measurments 
+-abolutes units(px,pt,cm,mm,inch)
+-relative units(
+font based--em(based on the root, ex.root 10px child 2em=10*2px),rem(relative to the root.means copy, ex.root 10px child 1rem=10*1)
+viewport based---relate to the screen(vw(view width),vh(view height))
+percentage based----%	
+)
+
+
+
+
+CSS media queries
+ by use this apply different styles based on screen size,resolution,device type.means adopting
+@media(condition){}
+
+
+screen width (min-width & max-width)--- this condition will work based on the screen width.
+@media(max-width) or @media(min-width)
+
+orientation based(min-width & max-width)---this condition will work based on the orientation
+@media(orientation:landscape)
+
+@media (orientation: portrait)
+ 
+
+

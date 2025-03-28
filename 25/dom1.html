@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="./test.js">
+
+    </script> -->
+</head>
+<body>
+    <div class="mainContainer" id="root">
+       
+    </div>
+    <script>
+        let rootElement = document.getElementById("root");
+        rootElement.textContent = "Main Div";
+        rootElement.style.color = "blue";
+        rootElement.style.fontSize = "10px";
+
+        let heading1 = document.createElement("h1");
+        heading1.textContent = "This is H1";
+        heading1.style.color = "red";
+        rootElement.appendChild(heading1);
+
+        //rootElement.classList.add("mainContainer");
+        
+
+    </script>
+</body>
+</html>

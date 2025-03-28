@@ -1,0 +1,10 @@
+positions 
+-static....normal thing
+-relative....adjustable
+-fixed....the element is fixed, even the page is scrolled the element position is not changed.
+-absolute....the element is removed from normal form
+-sticky....the element is move until a fixed place.
+
+ psudo-elements ::before,after,first-letter,first-line
+
+creates and styles a part of an element ,denoted with double colons.
